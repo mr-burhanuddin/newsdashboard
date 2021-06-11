@@ -1,0 +1,78 @@
+.sidebar {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #afdbdb;
+  border-radius: 0px 25px 25px 0px;
+  max-width: 40vw;
+  flex: 0.25;
+}
+.sidebar__cards {
+  flex-direction: column;
+}
+.sidebar__personInfo {
+  width: 250px;
+  height: 75px;
+  border-radius: 15px;
+  margin: 25px;
+  padding: 10px;
+  display: flex;
+  background-color: whitesmoke;
+  border: 1px solid white;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.sidebar__infoText {
+  font-size: 1.5rem;
+}
+.sidebar__infoText > p {
+  font-size: 0.9rem;
+}
+.sidebar__infoImg {
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  object-fit: cover;
+}
+
+.sidebar__toggleCard {
+  width: 250px;
+  height: 75px;
+  border-radius: 15px;
+  margin: 25px;
+  padding: 10px;
+  background-color: whitesmoke;
+  border: 1px solid white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.sidebar__toggleButton {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.sidebar__formCard {
+  width: 250px;
+  height: 75px;
+  border-radius: 15px;
+  margin: 25px;
+  padding: 10px;
+  background-color: whitesmoke;
+  border: 1px solid white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.sidebar__formCard > h4 {
+  margin-bottom: 10px;
+}
+.sidebar__formActive {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}

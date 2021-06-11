@@ -1,0 +1,15 @@
+.main {
+  display: flex;
+  flex: 0.75;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__cardContainer {
+  margin-left: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}

@@ -1,0 +1,7 @@
+.hori {
+  display: flex;
+  flex: 0.75;
+  background-color: lightgreen;
+  width: 100%;
+  height: auto;
+}
