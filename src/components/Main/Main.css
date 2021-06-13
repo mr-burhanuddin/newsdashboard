@@ -25,10 +25,13 @@
 .paginationBttns a {
   padding: 8px;
   margin: 8px;
-  border-radius: 8px;
-  border: 1px solid whitesmoke;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  border: 2px solid whitesmoke;
   color: gray;
   cursor: pointer;
+  background-color: white;
 }
 
 .paginationBttns a:hover {
