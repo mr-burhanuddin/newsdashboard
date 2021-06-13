@@ -6,7 +6,6 @@
   background-color: #afdbdb;
   border-radius: 0px 25px 25px 0px;
   max-width: 40vw;
-  flex: 0.25;
 }
 .sidebar__cards {
   flex-direction: column;

@@ -6,10 +6,32 @@
   overflow: hidden !important;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .main__cardContainer {
   margin-left: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 50px;
+}
+
+.paginationBttns {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.paginationBttns a {
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+  border: 1px solid whitesmoke;
+  color: gray;
+  cursor: pointer;
+}
+
+.paginationBttns a:hover {
+  color: white;
+  background-color: gray;
 }

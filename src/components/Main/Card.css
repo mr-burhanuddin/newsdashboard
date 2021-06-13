@@ -17,6 +17,8 @@
   margin-top: 20px;
   font-weight: 300;
   color: gray;
+  position: static;
+  bottom: 0;
 }
 
 .card > img {
@@ -38,6 +40,15 @@
 }
 .card__content {
   flex-direction: column;
+  flex-wrap: wrap;
+}
+.card__content > h4 {
+  font-size: medium;
+  margin-bottom: 5px;
+  max-width: 80%;
+}
+.card__content > span {
+  font-size: small;
 }
 
 .card__cancelButton {
